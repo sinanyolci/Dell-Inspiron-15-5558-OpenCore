@@ -86,7 +86,7 @@ Big Sur (10.16/11.0)
 
 3.Download GenSMBIOS to generate unique SMBIOS information. Run it and select Generate SMBIOS, as the model select iMacBookPro12,1.
 
-4.Open config.plist with ProperTree and go to PlatformInfo > Generic. Set MLB (Board Serial), SystemSerialNumber (Serial) and SystemUUID (SmUUID) to generated values. Change ROM to your network card's MAC address without the : character. How to get MAC Address?
+4.Open config.plist with ProperTree and go to PlatformInfo > Generic. Set MLB (Board Serial), SystemSerialNumber (Serial) and SystemUUID (SmUUID) to generated values. Change ROM to your network card's MAC address without the : character.
 
 5.Boot it!
 
