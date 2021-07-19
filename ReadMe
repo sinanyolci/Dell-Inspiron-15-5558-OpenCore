@@ -22,7 +22,7 @@ Dell Inspiron 15 5558 Hackintosh working OpenCore 0.7.1 EFI with macOS Monterey 
 - Updated OpenCore 0.6.7 to 0.6.8
 - Updated some Kext
 
-### Update: 30-March-2021
+### Update:
 - Bluetooth has been fixed
 - Realtek SD Card Reader Fixed
 - Realtek Ethernet Fixed
