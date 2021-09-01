@@ -36,7 +36,7 @@ Dell Inspiron 15 5558 Hackintosh working OpenCore 0.7.1 EFI with macOS Monterey 
   + Intel HD5500
   + NVIDIA GeForce 920M 2GB
 - **Network:**
-  + **Wifi:** Atheros AR4350
+  + **Wifi:** Dell DW1820A
   + **Ethernet:** Realtek RTL810xE
 - **Audio:** Realtek ALC255 (layout-29)
 - **Touchpad:** ELAN 1100 (I2C)
