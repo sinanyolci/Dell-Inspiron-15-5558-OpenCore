@@ -1,0 +1,101 @@
+# Dell Inspiron 15 5558-Hackintosh-OpenCore
+Dell Inspiron 15 5558 Hackintosh, BootCamp Windows 11 Pro ile macOS Monterey 12.2 ile OpenCore 0.7.9 EFI ile çalışıyor
+
+# Dell Inspiron 15 5558
+- **Önyükleyici:** OpenCore 0.7.9
+- **macOS:** 12.2.1 Monterey
+
+# Değişiklik günlüğü
+
+### Yükseltme:
+- 0.7.1 - 0.7.9 Opencore Güncellemesi
+- Diğer Kext güncellemeleri
+- Bluetooth düzeltmesi.
+- Wifi 5 GHZ düzeltmesi.
+- BootCamp ile Windows 11 Pro eklendi.
+
+### Güncelleme:
+- OpenCore Güncellemesi 0.7.0 - 0.7.1
+- Pil Yüzdesi Durum Algoritması Düzeltmesi
+- Diğer Kext güncellemesi
+
+### Güncelleme:
+- OpenCore Güncellemesi 0.6.8 - 0.7.0
+- Bluetooth Kext Güncellemesi
+- Ethernet Kext Güncellemesi
+- Android USB Tethering Kext Güncellemesi
+- BIOS yapılandırma değişiklikleri
+
+### Güncelleme:
+- OpenCore 0.6.7'den 0.6.8'e güncellendi
+- Bazı Kext güncellendi
+
+### Güncelleme:
+- Bluetooth düzeltildi
+- Realtek SD Kart Okuyucu Sabit
+- Realtek Ethernet Sabit
+
+# Şartname:
+
+- **Ana Kart:** Dell Inspiron 15 5558.
+- **İşlemci:** Intel Core i3-5500U @ 2.70GHz (Broadwell)
+- **RAM:** 8GB DDR3 1600mhz (Düello kanalı)
+- **Grafik:**
+  + Intel HD5500
+  + NVIDIA GeForce 920M 2GB
+- **Ağ:**
+  + **Wifi:** Dell DW1820A
+  + **Ethernet:** Realtek RTL810xE
+- **Ses:** Realtek ALC255 (düzen-29)
+- **Dokunmatik yüzey:** ELAN 1100 (I2C)
+- **SD ​​Kart Okuyucu** Realtek RTS5286
+- **Depolama**: 240GB SSD, 1TB HDD
+
+# ÇALIŞMA:
+- [x] Güç Yönetimi
+- [x] Intel HD Grafik 5500
+- [x] Ses
+- [x] Mikrofon
+- [x] Wi-Fi
+- [x] Bluetooth
+- [x] SD Kart Okuyucu
+- [x] Ethernet
+- [x] Parlaklığı ayarla
+- [x] USB 2.0 ve 3.0
+- [x] İzleme Dörtgeni **(Tüm hareketler desteklenir)**
+- [x] Uyku
+- [x] Pil Durumu
+- [x] Sıcaklık Monitörü
+- [x] Apple Mağazası
+- [x] iCloud
+- [x] Fn özelliği **(tüm düğmeler çalışır)**
+
+# Çalışmıyor:
+- [ ] Nvidia 920M GPU **(asla çalışmayacak)**
+
+
+# BIOS Ayarları:
+- Herhangi bir BIOS ayarını değiştirmenize gerek yok. Varsayılan BIOS ayarlarını yapın.
+
+# Kurulum:
+- Varsayılan BIOS ayarlarını değiştirin.
+- Sadece bu EFI'yi USB EFI bölümünüze koyun.
+- USB'nizi nasıl önyükleyeceğinizi bilmiyorsanız [buradan](https://dortania.github.io/OpenCore-Install-Guide/installer-guide/)
+- macOS Monterey'i yükleyin.
+- macOS uzantısına herhangi bir ek kext yüklemenize gerek yok. Tüm sürücü otomatik olarak yüklenecektir.
+- Kurulumdan sonra USB EFI'yi takın ve bunu HDD EFI'nize kopyalayın.
+- Seri numaralarını ve diğer şeyleri değiştirin. Eğiticiyi [buradan](https://dortania.github.io/OpenCore-Install-Guide/config-laptop.plist/broadwell.html#platforminfo) bulabilirsiniz.
+
+# Bluetooth düzeltmesi:
+- Bluetooth'u açmak/kapatmak için wifi'nizi geçici olarak kapatmanız gerekir.
+
+# SSD Düzeltme:
+- SSD kullanıyorsanız, daha iyi performans için TRIM Desteğini etkinleştirmeniz gerekir.
+- Terminale gidin ve `sudo trimforce enable` yazın
+- Ardından **Y** yazın ve girin.
+
+
+
+## Kredi
+@osxinfo.net yeni başlayanlar için rehberi için
+ve burada sayamadığım daha bir çok insan.
