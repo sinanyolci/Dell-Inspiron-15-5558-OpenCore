@@ -1,5 +1,5 @@
 # Dell Inspiron 15 5558-Hackintosh-OpenCore
-Dell Inspiron 15 5558 Hackintosh working OpenCore 0.7.1 EFI with macOS Monterey 12.0
+Dell Inspiron 15 5558 Hackintosh working OpenCore 0.7.9 EFI with macOS Monterey 12.2 with BootCamp Windows 11 Pro
 
 # Dell Inspiron 15 5558
 - **Bootloader:** OpenCore 0.7.9
@@ -12,6 +12,7 @@ Dell Inspiron 15 5558 Hackintosh working OpenCore 0.7.1 EFI with macOS Monterey 
 - Other Kext uptade
 - Bluetooh fix.
 - Wifi 5 GHZ fix.
+- Add Windows 11 Pro with BootCamp
 
 ### Update:
 - OpenCore Update 0.7.0 to 0.7.1
