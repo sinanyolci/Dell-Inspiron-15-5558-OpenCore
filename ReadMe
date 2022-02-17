@@ -87,9 +87,9 @@ Dell Inspiron 15 5558 Hackintosh working OpenCore 0.7.9 EFI with macOS Monterey 
 - Change the serial numbers and other things. You can find the tutorial from [here.](https://dortania.github.io/OpenCore-Install-Guide/config-laptop.plist/broadwell.html#platforminfo)
 
 # Bluetooth fix:
-- To toggle on/off bluetooth, you have to swichoff your wifi temporary.
+̶-̶ T̶o̶ ̶t̶o̶g̶g̶l̶e̶ ̶o̶n̶/̶o̶f̶f̶ ̶b̶l̶u̶e̶t̶o̶o̶t̶h̶,̶ ̶y̶o̶u̶ ̶h̶a̶v̶e̶ ̶t̶o̶ ̶s̶w̶i̶c̶h̶o̶f̶f̶ ̶y̶o̶u̶r̶ ̶w̶i̶f̶i̶ ̶t̶e̶m̶p̶o̶r̶a̶r̶y̶.̶
 
-# SSD Fix:
+̶# SSD Fix:
 - If you use SSD then you have to enable TRIM Support for better performance.
 - Go to the Terminal and type `sudo trimforce enable`
 - Then type **Y** and enter.
